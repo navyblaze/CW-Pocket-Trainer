@@ -19,6 +19,8 @@
 #include "oled_ui.h"
 // 莫斯电码相关
 #include "cw.h"
+// 菜单
+#include "menu.h"
 // 标准库函数
 #include <stdlib.h>
 
@@ -55,6 +57,8 @@ void HardWare_Init(void)
 		AmpSD_GPIO_Init();
 		// 创建MorseTree
 		MorseTree_Init();
+        // 菜单初始化
+        Menu_Init();
 		// 定时器初始化(1000Hz)
 		TIM1_TASK_Init(1000-1,72-1);
 		delay_ms(10);

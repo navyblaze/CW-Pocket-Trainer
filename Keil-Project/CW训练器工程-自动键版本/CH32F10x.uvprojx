@@ -186,6 +186,7 @@
             <RvdsVP>0</RvdsVP>
             <RvdsMve>0</RvdsMve>
             <RvdsCdeCp>0</RvdsCdeCp>
+            <nBranchProt>0</nBranchProt>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -339,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\SRC\Startup;.\SRC\StdPeriphDriver\inc;.\SRC\CMSIS;.\SRC\Debug;.\ANO_DT;.\SRC;.\SRC\StdPeriphDriver\src;.\Hardware\LED;.\Hardware\OLED;.\Battery;.\Beep;.\Timer;.\FLASH;.\DAC;.\CW;.\oled_ui;..\CWPT_V0.23_顺序练习;.\ADC;.\KEY</IncludePath>
+              <IncludePath>.\SRC\Startup;.\SRC\StdPeriphDriver\inc;.\SRC\CMSIS;.\SRC\Debug;.\ANO_DT;.\SRC;.\SRC\StdPeriphDriver\src;.\Hardware\LED;.\Hardware\OLED;.\Battery;.\Beep;.\Timer;.\FLASH;.\DAC;.\CW;.\oled_ui;..\CWPT_V0.23_顺序练习;.\ADC;.\KEY;.\Menu</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -602,6 +603,11 @@
               <FileName>oled_ui.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\oled_ui\oled_ui.c</FilePath>
+            </File>
+            <File>
+              <FileName>menu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Menu\menu.c</FilePath>
             </File>
           </Files>
         </Group>
